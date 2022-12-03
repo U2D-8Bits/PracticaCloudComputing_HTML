@@ -130,17 +130,19 @@ body{
 	height: 96%;
 	margin-left: 2rem;
 	margin-right: 2rem;
-	background-color: #FFFF;
+	/* background-color: #FFFF; */
 
 }
 
-.ertLineMain{
-	border-left: #ffff;
-	height: 100%;
-	left: 2rem;
-	position: absolute;
-}
+.divContentMain{
 
+	color: white;
+	font-weight: bolder;
+	font-size: 50px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 10rem;
+	margin-left: 1.5rem;
+}
 
 /*Footer*/
 .footer{
