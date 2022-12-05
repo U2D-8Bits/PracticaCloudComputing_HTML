@@ -116,7 +116,74 @@ body{
 /*SideBar*/
 
 .sideBar{
-	
+	background-color: rgba(5, 7, 12, 0.40);
+    border-radius: 20px;
+    width: 50vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.spanIntegrantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    font-weight: bolder;
+    font-size: larger;
+}
+/* .spanIntegrantes:hover{
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .contIntegrantes{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.integrantes{
+    margin-bottom: auto;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0%;
+    list-style: none;
+}
+
+.aPerfil{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.imgPerfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 0.5rem;
+}
+
+.spanPerfil{
+    margin-left: 0.3rem;
+}
+
+
+.aPerfil:hover{
+    background-color: antiquewhite;
+	color: #0D4A6E;
+	transition-duration: .3s;
+    justify-content: center;
+	border-radius: 20px;
+    width: 280px;
+}
+
+.contIntegrantes{
+    width: 50vh;
 }
 
 /*Main*/
@@ -131,7 +198,7 @@ body{
 	justify-content: flex-start;
 	margin-top: 4rem;
 	height: 96%;
-	margin-left: 2rem;
+	margin-left: 10rem;
 	margin-right: 2rem;
 	/* background-color: #FFFF; */
 
